@@ -1,18 +1,13 @@
 # > Apple News
-USER-AGENT,com.apple.geod*,Apple 地理限制
-USER-AGENT,com.apple.Maps,Apple 地理限制
-USER-AGENT,geod*,Apple 地理限制
-USER-AGENT,locationd*,Apple 地理限制
-USER-AGENT,Maps*,Apple 地理限制
-DOMAIN,gs-loc.apple.com,Apple 地理限制 // Maps
-DOMAIN-SUFFIX,lcdn-locator.apple.com,Apple 地理限制
-DOMAIN-SUFFIX,lcdn-registration.apple.com,Apple 地理限制
-DOMAIN-SUFFIX,ls.apple.com,Apple 地理限制
+DOMAIN,gspe1-ssl.ls.apple.com
+PROCESS-NAME,News
+USER-AGENT,AppleNews*
 
-USER-AGENT,AppleNews*,Direct
-DOMAIN-SUFFIX,apple.news,Direct
-DOMAIN,news-events.apple.com,Direct
-DOMAIN,news-edge.apple.com,Direct
-DOMAIN,apple.comscoreresearch.com,Direct
-DOMAIN,play.itunes.apple.com,Direct
-DOMAIN,play-cdn.itunes-apple.com.akadns.net,Direct
+# USER-AGENT,News*
+USER-AGENT,com.apple.news*
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,apple.comscoreresearch.com
